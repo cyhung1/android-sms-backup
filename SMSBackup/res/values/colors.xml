@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="activity_backup_background">#00AEEF</color>
+	<color name="activity_restore_background">#6D6E71</color>
+	<color name="activity_view_background">#E39B35</color>
+	<color name="activity_view_background_darker">#D38B25</color>
+	<color name="activity_search_background">#83462C</color>
+	<color name="activity_delete_background">#5865A2</color>
+		
+	<color name="activity_rate_background">#9ba275</color>
+	<color name="activity_delete_sms_background">#97549f</color>
+	
+	<color name="activity_delete_background_darker">#485592</color>
+	<color name="activity_settings_background">#0092A5</color>
+	<color name="activity_share_background">#358d4e</color>
+	<color name="activity_help_background">#bf5c96</color>
+	<color name="activity_info_background">#555555</color>
+	
+	<color name="light_gray">#eeeeee</color>
+			 
+	<color name="holo_green_light">#ff99cc00</color>
+	<color name="holo_green_dark">#ff669900</color>	
+	<color name="holo_blue_light">#ff33b5e5</color>  
+</resources>
+

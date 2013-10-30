@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory android:title="@string/backup">
+        
+        <EditTextPreference 
+            android:title="@string/backup_dir"
+            android:key="backupDir"
+            android:defaultValue="SMSBackup" />
+        
+    </PreferenceCategory>
+    
+</PreferenceScreen>

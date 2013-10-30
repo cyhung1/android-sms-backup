@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Backup SMS</string>
+    <string name="action_settings">Configurações</string>
+    <string name="title_activity_main">Backup SMS</string>
+    <string name="backup">Backup</string>
+    <string name="restore">Restaurar</string>
+    <string name="view">Ver SMS</string>
+    <string name="view_backup_sms">Ver Backup</string>
+    <string name="search">Procurar</string>
+    <string name="delete">Excluir</string>
+    <string name="settings">Configurações</string>
+    <string name="share">Compartilhar</string>
+    <string name="help">Ajuda</string>
+    <string name="about">Sobre</string>
+    <string name="title_activity_backup">Backup</string>
+    <string name="title_activity_restore">Restaurar</string>
+    <string name="title_activity_view_message">Ver SMS</string>
+    <string name="title_activity_search">Procurar</string>
+    <string name="title_activity_delete_message">Excluir</string>
+    <string name="please_insert_the_backup_filename">Por favor, digite o nome do arquivo de backup.</string>
+    <string name="backed_up_successfully">Backup feito com sucesso.</string>
+    <string name="ok">Confirmar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="title_activity_share">Compartilhar</string>
+    <string name="backup_selected">Backup selecionados</string>
+    <string name="title_activity_help">Ajuda</string>
+    <string name="title_activity_about">Sobre</string>
+	<string name="appDescription">Este é o app Backup de SMS, o melhor app de backup de mensagens SMS do mundo.</string>
+	<string name="appShareDescription">Este é o app de backup de SMS. Baixe em https://play.google.com/store/apps/details?id=com.kelviomatias.smsbackup</string>
+	
+	<string name="selectContactsForBackup">Escolha os contatos</string>
+	<string name="selectBackupFileForRestore">Escolha o backup</string>
+	<string name="restoreBackup">Restaurar backup?</string>
+	<string name="chooseBackupForDelete">Escolha um backup para excluir</string>
+	<string name="deleteBackup">Excluir backup?</string>
+	<string name="backupDeleted">Backup excluído com sucesso</string>
+	<string name="emptyResults">Nenhum resultado</string>
+	<string name="justAsk">Apenas dizer</string>
+	<string name="type">Digitar</string>
+	<string name="tell_the_content_of_a_message">Diga o conteúdo de uma mensagem</string>
+	<string name="please_type_the_message_content">Por favor, digite o conteúdo da mensagem</string>
+	
+	<string name="unknown">(Desconhecido)</string>
+	
+	<string name="copy_for_transfer_area">Copiar para área de transferência</string>
+    <string name="mark_number">Marcar número</string>
+    <string name="send_new_message">Enviar nova mensagem</string>
+    <string name="backup_message">Fazer backup da mensagem</string>
+    <string name="phone">Telefone</string>
+	<string name="sms_body_copied_for_transfer_area">Corpo da mensagem SMS foi copiado para a área de transferência.</string>
+	<string name="select_share_method">Escolha o método de compartilhamento</string>
+	<string name="conversations">Conversas</string>
+	<string name="restored_with_success">Backup restaurado com sucesso!</string>
+	
+	<string name="loading">Carregando...</string>
+	<string name="processing">Processando...</string>
+	<string name="restoring">Restaurando...</string>
+	<string name="delete_backup">Excluir Backup</string>
+    <string name="delete_sms">Excluir SMS</string>
+    
+    <string name="rate">Avaliar</string>
+    	    
+    <string name="backup_dir">Diretório de backup</string>
+
+    <string name="google_play_not_installed">Google Play não está instalado.</string>
+
+	<string name="backup_sms_messages_before_delete">Fazer backup das mensagens antes de excluir?</string>
+	<string name="backup_sms_and_delete">Fazer backup e excluir</string>
+	<string name="only_delete">Somente excluir</string>
+	<string name="delete_messages">Excluir mensagens do telefone</string>
+	<string name="options">Opções</string>
+	<string name="backup_messages_and_delete">Fazer backup das mensagens e apagar no telefone</string>
+	
+	<string name="deleting">Excluindo...</string>
+	<string name="messages_successfully_deleted">Mensagens excluídas com sucesso!</string>
+	<string name="apps">Apps</string>
+</resources>

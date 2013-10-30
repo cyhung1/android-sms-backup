@@ -1,0 +1,114 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SearchActivity" >
+
+    <Button
+        android:id="@+id/activitySearchTypeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/activitySearchTalkButton"
+        android:layout_alignRight="@+id/activitySearchTitleTextView"
+        android:layout_alignTop="@+id/activitySearchTalkButton"
+        android:background="@drawable/search_activity_type_button"
+        android:text="@string/type"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:id="@+id/activitySearchTalkButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/activitySearchTitleTextView"
+        android:layout_below="@+id/activitySearchTitleTextView"
+        android:layout_marginRight="10dp"
+        android:layout_toLeftOf="@+id/activitySearchTypeButton"
+        android:background="@drawable/search_activity_talk_button"
+        android:drawableStart="@drawable/microphone"
+        android:minHeight="50dp"
+        android:text="@string/justAsk"
+        android:textColor="@android:color/white" />
+
+    <TextView
+        android:id="@+id/activitySearchTitleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:ellipsize="marquee"
+        android:gravity="center_horizontal"
+        android:marqueeRepeatLimit="marquee_forever"
+        android:paddingBottom="20dp"
+        android:scrollHorizontally="true"
+        android:singleLine="true"
+        android:text="@string/search"
+        android:textAppearance="@android:style/TextAppearance.Large"
+        android:textColor="@color/activity_restore_background" />
+
+    <TabHost
+        android:id="@+id/activitySearchTabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/activitySearchTypeButton" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="@dimen/activity_vertical_margin" >
+
+            <HorizontalScrollView
+                android:id="@+id/hScrollView"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:scrollbars="none" >
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                </TabWidget>
+            </HorizontalScrollView>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+    <ProgressBar
+        android:id="@+id/activitySearchProgressBar"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/activitySearchNoResults"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/activitySearchTabhost"
+        android:layout_alignRight="@+id/activitySearchTabhost"
+        android:layout_alignTop="@+id/activitySearchTabhost"
+        android:layout_marginTop="126dp"
+        android:gravity="center_horizontal"
+        android:textStyle="italic"
+        android:textColor="@android:color/darker_gray"
+        android:textAppearance="@android:style/TextAppearance.Medium"
+        android:text="@string/emptyResults" />
+
+
+
+</RelativeLayout>
